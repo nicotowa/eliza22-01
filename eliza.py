@@ -11,10 +11,11 @@ log = logging.getLogger(__name__)
 
 
 class Key:
-    def __init__(self, word, weight, decomps):
+    def __init__(self, word, weight, decomps, concordia):
         self.word = word
         self.weight = weight
         self.decomps = decomps
+        self.concordia = concordia
 
 
 class Decomp:
